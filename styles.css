@@ -147,6 +147,15 @@ img {
     width: 80%;
 }
 
+.call-text {
+    font-weight: bold;
+    max-width: 250px;
+}
+
+.last-text {
+    color: #fff;
+}
+
 .lastbutton {
     border: 1px solid #fff;
 }
