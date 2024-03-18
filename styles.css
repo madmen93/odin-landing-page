@@ -145,3 +145,7 @@ img {
     align-items: center;
     width: 80%;
 }
+
+.lastbutton {
+    border: 1px solid #fff;
+}
