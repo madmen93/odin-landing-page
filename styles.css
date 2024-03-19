@@ -1,19 +1,26 @@
 * {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0;
-    
+    box-sizing: border-box;
+ /*    width: 100%; */
 }
+
 
 .main-header {
   
     background-color: #744a88;
-    padding: 10px;
+    padding: 1% 15%;
    
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+}
+
+img.frontimg {
+    width: 250px;
+    height: 200px;
 }
 
 .links {
@@ -85,6 +92,7 @@ button {
 .content {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     padding: 30px 0 50px 0;
     gap: 20px;
 }
@@ -119,7 +127,8 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 40px 0;
+    padding: 40px 20%;
+    
 }
 
 .principal {
@@ -132,7 +141,9 @@ img {
 
 .author {
     align-self: flex-end;
+    font-size: 18px;
     font-weight: bold;
+    padding: 10px 20px;
 }
 
 .call-to-action {
@@ -140,22 +151,34 @@ img {
     gap: 40px;
     background-color: #3882F6;
     border-radius: 5px;
-    margin: 40px;
+    margin: 5% 20%;
     padding: 20px 40px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    width: 80%;
+    min-width: 200px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    /* width: 80%; */
 }
 
 .call-text {
     font-weight: bold;
-    max-width: 250px;
+    max-width: 300px;
 }
 
 .last-text {
     color: #fff;
+    min-width: 200px;
 }
 
 .lastbutton {
     border: 1px solid #fff;
+}
+
+.footer {
+    background-color: #744a88;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    padding: 20px 0;
 }
